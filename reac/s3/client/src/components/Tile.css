@@ -1,0 +1,49 @@
+
+
+.tilewin{
+  border: 5px solid green;
+  margin: 0;
+  width: 300px;
+  height: 130px;
+  background-color: #0bff08;;
+
+}
+.tilefail {
+  border: 5px solid red;
+  margin: 0;
+  width: 300px;
+  height: 130px;
+  background-color: #ff6c27;;
+}
+.albumArt{
+  right: 0px;
+  position: absolute;
+  display:block;
+}
+
+.SA {
+  list-style-type: none;
+  display:flex;
+  flex-direction: column-reverse;
+  position: absolute;
+  width: 180px;
+  height: 120px;
+
+}
+.songName{
+  position: absolute;
+  padding: 10px;
+  top: 0px;
+  left: 0px;
+  text-align: left;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+
+}
+.artistName{
+  position: absolute;
+  padding: 10px;
+  right: 0px;
+  text-align: right;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+
+}
